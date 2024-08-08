@@ -11,7 +11,7 @@ function Page() {
         <div className='page'>
             <div className='top-bar'>
                 <button className='invisible-button' onClick={() => setSidebarOpen(!isSidebarOpen)}>
-                    <img className={`side-menu-icon ${isSidebarOpen ? 'move' :''}`} src='/icons/side-menu-icon.png' alt='side-menu'/>
+                    <img className={`side-menu-icon ${isSidebarOpen ? 'move' :''}`} src='icons/side-menu-icon.png' alt='side-menu'/>
                 </button>
             </div>
             <div className='main-page-content'>
