@@ -1,0 +1,151 @@
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #202029;
+    min-width: 350px;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.side-panel.show {
+    left: 0;
+}
+
+.side-panel-top-section {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border-color: #303038;
+    background-color: #303038;
+}
+
+.profile-section {
+    background-color: #25252f;
+    border-radius: 20px 20px 0 0;
+}
+
+.details-section {
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+}
+
+.social-links {
+    background-color: #25252f;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-logo {
+    height: 25px;
+    width: 25px;
+}
+
+.social-logo:hover {
+    filter: brightness(1.4);
+    transition: filter 250ms ease-in;
+}
+
+#github-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.profile-picture {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border-color: grey;
+    border-style: solid;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.profile-name {
+    font-size: larger;
+}
+
+.profile-description {
+    color: #B2BEB5;
+    font-size: medium;
+    margin-top: -10px;
+}
+
+.language-circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #f6c344;
+}
+
+.language-level-text {
+    text-align: center;
+    line-height: 13px;
+    font-size: medium;
+}
+
+.language-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.details-container {
+    padding: 0 10px 0 10px;
+}
+
+.details-key-value-pair {
+    display: flex;
+    justify-content: space-between;
+    margin: -20px 0 0 0;
+}
+
+.details-value {
+    color: #B2BEB5;
+}
+
+@media only screen and (max-width: 320px) {
+    .side-panel {
+        width: 275px;
+        left: -275px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .side-panel {
+        position: fixed;
+        left: -350px;
+        top: 0;
+        z-index: 1;
+        border-radius: 0 20px 20px 0;
+        height: 100%;
+        transition: left 500ms;
+    }
+
+    .profile-section {
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
