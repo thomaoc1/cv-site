@@ -16,7 +16,7 @@ function Project() {
                                     <a href={project.link}>
                                         <div className='project-name-link'>
                                             <p> {project.title} </p>
-                                            <img className='link-icon' src='/icons/link-icon.png' alt='link icon'/>
+                                            <img className='link-icon' src='icons/link-icon.png' alt='link icon'/>
                                         </div>
                                     </a>
                                     <p className='project-description'> {project.desc} </p>
