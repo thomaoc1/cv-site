@@ -25,6 +25,7 @@ hr {
 .profile-section {
     background-color: #25252f;
     border-radius: 20px 20px 0 0;
+    padding: 0 20px 0 20px;
 }
 
 .details-section {
@@ -57,8 +58,8 @@ hr {
 }
 
 .profile-picture {
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border-color: grey;
     border-style: solid;
@@ -125,8 +126,33 @@ hr {
 
 @media only screen and (max-width: 320px) {
     .side-panel {
-        width: 275px;
         left: -275px;
+    }
+
+    .profile-name {
+        font-size: medium;
+    }
+
+    .profile-description {
+        font-size: small;
+    }
+
+    .details-key-value-pair {
+        font-size: small;
+    }
+
+    .language-circle-container, .language-level-text {
+        font-size: small;
+    }
+
+    .language-circle {
+        height: 40px;
+        width: 40px;
+    }
+
+    .profile-picture {
+        width: 100px;
+        height: 100px;
     }
 }
 

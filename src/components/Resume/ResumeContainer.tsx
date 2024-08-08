@@ -4,6 +4,7 @@ import TechnicalSkills from "./TechnicalSkills.tsx";
 import Projects from "./Projects.tsx";
 import React from "react";
 
+
 interface ResumeContainerProps {
     isSidebarOpen: boolean,
 }
