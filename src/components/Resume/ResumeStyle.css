@@ -160,6 +160,12 @@ h1, h2, h3, h4 {
     }
 }
 
+@media only screen and (max-width: 425px) {
+    .resume-container {
+        max-height: none;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .resume-container {
         border-radius: 0 0 20px 20px;

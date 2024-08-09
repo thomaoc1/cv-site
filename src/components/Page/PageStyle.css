@@ -22,7 +22,6 @@
     display: flex;
     flex-direction: column;
     gap: 0;
-    height: calc(100vh - 20px);
     padding: 10px;
 }
 
@@ -33,22 +32,10 @@
     border-radius: 10px 10px 0 0;
 }
 
+
+
 @media only screen and (max-width: 1024px) {
     .top-bar {
         display: flex;
     }
 }
-
-/*@media screen and (min-width: 760px) {*/
-/*    .side-menu-icon {*/
-/*        display: inline;*/
-/*        height: 35px;*/
-/*        width: 35px;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (min-width: 1024px) {*/
-/*    .side-menu-icon {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
