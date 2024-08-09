@@ -7,14 +7,15 @@
     position: relative;
     filter: invert(1) brightness(0.5);
     height: 35px;
+    will-change: transform;
     left: 0;
     width: 35px;
     z-index: 2;
-    transition: left 500ms;
+    transition: transform 1s ease;
 }
 
 .side-menu-icon.move {
-    left: 265px;
+    transform: translateX(265px);
 }
 
 .page {

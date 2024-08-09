@@ -1,17 +1,17 @@
 .side-panel {
     display: flex;
-    will-change: left;
+    will-change: transform;
     flex-direction: column;
     justify-content: space-between;
     background-color: #202029;
     min-width: 350px;
     border-radius: 20px;
     overflow-y: auto;
-    transition: left 500ms;
+    transition: transform 1s ease;
 }
 
 .side-panel.show {
-    left: 0;
+    transform: translateX(350px);
 }
 
 .side-panel-top-section {
@@ -127,9 +127,6 @@ hr {
 }
 
 @media only screen and (max-width: 320px) {
-    .side-panel {
-        left: -275px;
-    }
 
     .profile-name {
         font-size: medium;
