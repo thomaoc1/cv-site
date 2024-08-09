@@ -12,7 +12,7 @@ h1, h2, h3, h4 {
 .resume-container {
     padding: 0 30px 30px 30px;
     background-color: #1f1f28;
-    height: calc(100vh - 50px);
+    max-height: calc(100dvh - 50px);
     border-radius: 20px;
     overflow-y: auto;
     transition: filter 1s;
