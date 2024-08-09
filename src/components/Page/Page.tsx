@@ -7,6 +7,12 @@ function Page() {
 
     const [isSidebarOpen, setSidebarOpen] = useState(false);
 
+    const onContainerClicked = () => {
+        if (isSidebarOpen) {
+            setSidebarOpen(false);
+        }
+    }
+
     return (
         <div className='page'>
             <div className='top-bar'>
@@ -16,7 +22,7 @@ function Page() {
             </div>
             <div className='main-page-content'>
                 <SidePanel isOpen={isSidebarOpen}/>
-                <ResumeContainer isSidebarOpen={isSidebarOpen} />
+                <ResumeContainer isSidebarOpen={isSidebarOpen} onContainerClicked={onContainerClicked} />
             </div>
         </div>
     )
