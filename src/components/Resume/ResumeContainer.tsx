@@ -11,7 +11,7 @@ interface ResumeContainerProps {
 
 const ResumeContainer: React.FC<ResumeContainerProps> = ({ isSidebarOpen }) => {
     return (
-        <div className={`resume-container ${isSidebarOpen ? 'blur' : ''}`}>
+        <div className={`resume-container ${isSidebarOpen ? 'side-bar-open' : ''}`}>
             <h1> Resume Website  </h1>
             <Education  />
             <TechnicalSkills />

@@ -18,8 +18,14 @@ h1, h2, h3, h4 {
     transition: filter 1s;
 }
 
-.resume-container.blur {
+.resume-container.side-bar-open {
+    overflow-y: hidden;
     filter: blur(5px);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
 }
 
 .content-container {

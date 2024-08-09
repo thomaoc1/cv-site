@@ -1,11 +1,13 @@
 .side-panel {
     display: flex;
+    will-change: left;
     flex-direction: column;
     justify-content: space-between;
     background-color: #202029;
     min-width: 350px;
     border-radius: 20px;
     overflow-y: auto;
+    transition: left 500ms;
 }
 
 .side-panel.show {
@@ -164,7 +166,6 @@ hr {
         z-index: 1;
         border-radius: 0 20px 20px 0;
         height: 100%;
-        transition: left 500ms;
     }
 
     .profile-section {
