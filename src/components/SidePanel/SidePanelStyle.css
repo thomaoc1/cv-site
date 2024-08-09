@@ -30,6 +30,10 @@ hr {
     padding: 0 20px 0 20px;
 }
 
+.profile-section p {
+    text-align: center;
+}
+
 .details-section {
     padding: 15px;
     border-radius: 0 0 20px 20px;
