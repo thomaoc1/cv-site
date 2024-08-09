@@ -11,7 +11,7 @@
     left: 0;
     width: 35px;
     z-index: 2;
-    transition: transform 1s ease;
+    transition: transform 600ms ease;
 }
 
 .side-menu-icon.move {
