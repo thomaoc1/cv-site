@@ -8,6 +8,16 @@
     border-radius: 20px;
     overflow-y: auto;
     transition: transform 600ms ease;
+    animation: 500ms fadeInLeft;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
 
 .side-panel.show {

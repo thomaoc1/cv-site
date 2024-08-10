@@ -29,6 +29,17 @@ const projects = [
         ]
     },
     {
+        subheading: 'Front-end Development',
+        projects: [
+            {
+                title: 'Resume Website using React',
+                desc: 'Code behind this website ;)',
+                link: 'https://github.com/thomaoc1/cv-site',
+            }
+
+        ]
+    },
+    {
         subheading: 'General Programming',
         projects: [
             {
