@@ -21,8 +21,6 @@ function Project() {
                                     </a>
                                     <p className='project-description'> {project.desc} </p>
                                 </div>
-
-                                <img className='project-icon content-grid-item-icon' id={project.id} src={project.icon_src} alt={project.alt}/>
                             </div>
                         ))}
                     </div>
