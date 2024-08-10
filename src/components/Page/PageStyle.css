@@ -7,9 +7,9 @@
     position: relative;
     filter: invert(1) brightness(0.5);
     height: 35px;
+    width: 35px;
     will-change: transform;
     left: 0;
-    width: 35px;
     z-index: 2;
     transition: transform 600ms ease;
 }
@@ -32,7 +32,12 @@
     border-radius: 10px 10px 0 0;
 }
 
-
+@media only screen and (max-width: 425px) {
+    .side-menu-icon {
+        height: 25px;
+        width: 25px;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
     .top-bar {
