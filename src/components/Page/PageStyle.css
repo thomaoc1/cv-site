@@ -23,6 +23,7 @@
     flex-direction: column;
     gap: 0;
     padding: 10px;
+    width: min(1920px, 90%);
 }
 
 .top-bar {
