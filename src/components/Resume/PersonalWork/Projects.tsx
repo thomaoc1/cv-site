@@ -4,7 +4,7 @@ import WorkContainer from "./WorkContainer.tsx";
 
 function Project() {
     return (
-        <>
+        <div>
             <h2> Personal Projects </h2>
             {allProjects.map((category, idx) => (
                 <div key={idx}>
@@ -12,7 +12,7 @@ function Project() {
                     <WorkContainer works={category.projects} />
                 </div>
             ))}
-        </>
+        </div>
     )
 }
 

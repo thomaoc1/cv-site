@@ -1,6 +1,6 @@
 import './ResumeStyle.css';
 import Education from "./Education/Education.tsx";
-import TechnicalSkills from "./TechnicalSkills.tsx";
+import TechnicalSkills from "./TechnicalSkills/TechnicalSkills.tsx";
 import Projects from "./PersonalWork/Projects.tsx";
 import React from "react";
 import Contributions from "./PersonalWork/Contributions.tsx";
