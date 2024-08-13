@@ -72,13 +72,15 @@ const projects = [
         subheading: 'Contributions',
         projects: [
             {
+                title: 'albumentations',
+                desc: 'Contributed by optimising a Coarse Dropout implementation.',
+                link: 'https://github.com/albumentations-team/albumentations',
+            },
+            {
                 title: 'Pysat Library',
                 desc: 'Contributed to Pysat documentation.',
                 link: 'https://github.com/pysathq/pysat',
-                icon_src: 'icons/pysat-icon.png',
-                id: 'pysat-icon',
-                alt: 'Pysat Icon',
-            }
+            },
         ]
     }
 ]
