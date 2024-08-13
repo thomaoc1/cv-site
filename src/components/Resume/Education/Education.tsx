@@ -1,5 +1,6 @@
-import './ResumeStyle.css'
+import '../ResumeStyle.css'
 import React from 'react';
+import education from "./educationData.ts";
 
 interface Education {
     degree: string;
@@ -26,22 +27,8 @@ const EducationBox: React.FC<EducationBoxProps> = ({ education }) => {
 }
 
 function Education() {
-    const education = [
-        {
-            pathToImage: './icons/ulb.png',
-            uni: 'Université Libre de Bruxelles',
-            date: 'Sep 2020 - 2023',
-            degree: 'BSc. Computer Science',
-        },
-        {
-            pathToImage: './icons/rug.png',
-            uni: 'Rijksuniversiteit Groningen',
-            date: 'Sep 2023 - 2025',
-            degree: 'MSc. Artificial Intelligence',
-        },
-    ]
     return (
-        <>
+        <div>
             <h2> Education </h2>
             <div className='content-container'>
                 {education.map((edu, index) => (
@@ -51,7 +38,7 @@ function Education() {
                     />
                 ))}
             </div>
-        </>
+        </div>
     )
 }
 

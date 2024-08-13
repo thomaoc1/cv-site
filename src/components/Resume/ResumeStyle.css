@@ -3,14 +3,10 @@ h1, h2, h3, h4 {
     font-family: Helvetica, serif;
 }
 
-.resume-title-container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-}
-
 .resume-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding: 0 30px 30px 30px;
     background-color: #1f1f28;
     max-height: calc(100dvh - 50px);
