@@ -6,7 +6,7 @@ function Project() {
     return (
         <>
             <h2> Personal Projects </h2>
-            {allProjects.map((category: object, idx) => (
+            {allProjects.map((category, idx) => (
                 <div key={idx}>
                     <h3> {category.subheading} </h3>
                     <WorkContainer works={category.projects} />
